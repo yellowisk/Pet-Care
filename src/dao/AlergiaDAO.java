@@ -16,7 +16,7 @@ public class AlergiaDAO {
 	public AlergiaDAO() {
 	connection = new FabricaConexoes().getConnection();
 	}
-	changing test
+	
 	public int inserir (Alergias a) {
 		int inseriu = 0;
 		String sql = "INSERT INTO alergias(CPF_DONO, cod_coleira, alergia) VALUES (?,?,?);";
